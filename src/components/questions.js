@@ -1,0 +1,80 @@
+export const questions = {
+  questions: [
+    {
+      id: 1,
+      question: 'In which country first case of Covid-19 was founf?',
+      image: require('./1.jpg'),
+      answers: ['India', 'USA', 'China', 'Brazil'],
+      correctIndex: 3,
+    },
+    {
+      id: 2,
+      question: "Which countrie's Flag is this?",
+      image: require('./usa.jpg'),
+      answers: ['India', 'USA', 'China', 'Brazil'],
+      correctIndex: 2,
+    },
+    {
+      id: 3,
+      question: 'What is the name of this scientist?',
+      image: require('./einstain.jpg'),
+      answers: [
+        'Albert Einstein',
+        'Marie Curie',
+        'Isaac Newton',
+        'Charles Darwin',
+      ],
+      correctIndex: 1,
+    },
+    {
+      id: 4,
+      question: 'What is the name of this animal?',
+      image: require('./tiger.jpg'),
+      answers: ['Lion', 'Cat', 'Elephent', 'Tiger'],
+      correctIndex: 4,
+    },
+    {
+      id: 5,
+      question: 'What is the Birthdate of Mahatma Gandhi?',
+      image: require('./gandhi.jpg'),
+      answers: ['6nd October', '2nd Augest', '2th October', '4th Augest'],
+      correctIndex: 3,
+    },
+    {
+      id: 6,
+      question: 'In which county effil tower is?',
+      image: require('./effiltower.jpg'),
+      answers: ['Rusia', 'USA', 'Spain', 'UK'],
+      correctIndex: 3,
+    },
+    {
+      id: 7,
+      question: 'What is the scientific name of Corona Virus?',
+      image: require('./1.jpg'),
+      answers: ['SARS-CoV-4', 'SARS-CoV-2', 'SAMS-CoV-2', 'SARS-Covid-9'],
+      correctIndex: 2,
+    },
+    {
+      id: 8,
+      question:
+        'How many centuries Sachin has scored in international cricket?',
+      image: require('./sachin.jpg'),
+      answers: ['150', '100', '200', '250'],
+      correctIndex: 2,
+    },
+    {
+      id: 9,
+      question: 'In which year India got independence?',
+      image: require('./india.jpg'),
+      answers: ['1945', '1845', '1927', '1947'],
+      correctIndex: 4,
+    },
+    {
+      id: 10,
+      question: 'What is name of this monument?',
+      image: require('./tajmahal.jpg'),
+      answers: ['Taj Mahal', 'Lal Killa', 'Taj Palace', 'Taj Killa'],
+      correctIndex: 1,
+    },
+  ],
+};
